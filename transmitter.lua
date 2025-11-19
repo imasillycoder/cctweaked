@@ -2,7 +2,7 @@ local modem = peripheral.find("modem") or error("No Modem Found!", 0)
 modem.open(321)
 
 local core = peripheral.find("draconic_rf_storage")
-local coreenergy = core.energy()
+local coreenergy = core.getEnergy()
 
 local sleeptime = 2.5
 
